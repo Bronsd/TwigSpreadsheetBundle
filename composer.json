@@ -1,14 +1,14 @@
 {
-    "name": "mewesk/twig-spreadsheet-bundle",
+    "name": "bronsd/twig-spreadsheet-bundle",
     "type": "symfony-bundle",
     "description": "This Symfony bundle integrates PhpSpreadsheet into Symfony using Twig.",
     "keywords": ["excel","phpexcel","spreadsheet","phpspreadsheet","twig","symfony"],
-    "homepage": "https://github.com/MewesK/TwigSpreadsheetBundle",
+    "homepage": "https://github.com/bronsd/TwigSpreadsheetBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mewes Kochheim",
-            "email": "mewes@kochheim.de"
+            "name": "Bronsd",
+            "email": "bronsd@protonmail.com"
         },
         {
             "name": "Community Contributors",
@@ -17,14 +17,14 @@
     ],
     "require": {
         "php": ">=7.0",
-        "symfony/framework-bundle": "~3.2|~4.0",
+        "symfony/framework-bundle": "~3.2|~4.0|~5.0",
         "twig/twig": "~2.0",
         "phpoffice/phpspreadsheet": "~1.3.1"
     },
     "require-dev": {
-        "symfony/symfony": "~3.2|~4.0",
-        "sensio/framework-extra-bundle": "~3.0|~4.0",
-        "symfony/phpunit-bridge": "~4.0",
+        "symfony/symfony": "~3.2|~4.0|~5.0",
+        "sensio/framework-extra-bundle": "~3.0|~4.0|~5.0",
+        "symfony/phpunit-bridge": "~4.0|~5.0",
         "phpunit/phpunit": "^6.5",
         "mpdf/mpdf": "~7.0"
     },
