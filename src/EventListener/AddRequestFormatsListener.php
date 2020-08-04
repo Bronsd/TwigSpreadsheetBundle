@@ -12,7 +12,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
 class AddRequestFormatsListener implements EventSubscriberInterface
 {
     /**
-     * @param GetResponseEvent $event
+     * @param RequestEvent $event
      */
     public function onKernelRequest(RequestEvent $event)
     {
